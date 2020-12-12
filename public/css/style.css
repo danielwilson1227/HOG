@@ -1,0 +1,213 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.4;
+}
+a {
+	text-decoration: none;
+}
+p {
+	margin: 0.75em 0;
+}
+.text-purple {
+	color: #581c74;
+}
+.text-black {
+	color: black;
+}
+.text-green {
+	color: #74a221;
+}
+.text-gold {
+	color: #cca01d;
+}
+.text-white {
+	color: white;
+}
+.btn:hover {
+	background: #b19cd9;
+	color: white;
+}
+.btn-purple {
+	background: #581c74;
+	color: white;
+}
+.bg-purple {
+	background-color: #581c74;
+}
+.bg-green {
+	background-color: #74a221;
+}
+.bg-lightpurp {
+	background-color: #b19cd9;
+}
+.bg-gold {
+	background-color: #cca01d;
+}
+.navbar {
+	background-color: #581c74;
+}
+.navbar li {
+	color: white;
+}
+#hog-logo {
+	width: 50px;
+	height: 50px;
+}
+#hog-heading {
+	text-align: center;
+	font-size: 1.5rem;
+	width: 30%;
+}
+#navbar img {
+	width: 35%;
+	display: block;
+}
+#home {
+	padding-top: 50px;
+}
+.page-container {
+	position: relative;
+	min-height: 100vh;
+}
+#content-wrap {
+	padding-bottom: 2.5rem;
+}
+#main-footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 2.5rem;
+}
+#showcase {
+	background: white url('../img/index/team.jpg') no-repeat center center/cover;
+	height: 60vh;
+	color: #581c74;
+}
+#showcase .showcase-content {
+	text-align: center;
+	height: 100%;
+	padding: 3em 2em;
+}
+#what-heading {
+	height: 7vh;
+}
+.whatCard-heading {
+	font-size: 1.3rem;
+}
+#what-heading {
+	font-size: 2rem;
+}
+#what-showcase p {
+	font-size: 1rem;
+}
+#what-showcase h3 {
+	font-size: 1.5rem;
+}
+#event {
+	height: 40vh;
+}
+#event .address,
+#event .map {
+	flex: 1;
+}
+#event-header {
+	margin-top: 1em;
+}
+#event p {
+	font-size: 1rem;
+}
+.what-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.what-gallery img {
+	width: 60%;
+	height: 60%;
+	background-size: cover;
+	display: block;
+	margin: auto;
+}
+.what-gallery div {
+	flex: 0 48%;
+}
+#who-leaders,
+#who-team {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
+	grid-row-gap: 1em;
+}
+.leader-text {
+	margin: 0 auto;
+	font-size: 3rem;
+}
+.who-card {
+	width: 50%;
+}
+.headshot {
+	width: 100%;
+}
+#contactForm {
+	width: 80%;
+	height: 80%;
+	border: solid #581c74;
+}
+#message-failure,
+#message-success {
+	width: 100%;
+}
+#gallery {
+	margin: 0.5em 2.5em;
+	padding-top: 50px;
+}
+#gallery img {
+	width: 130px;
+	height: 130px;
+	padding: 1em;
+	transition: 1s;
+}
+#gallery img:hover {
+	transform: scale(1.1);
+}
+#clicked-image {
+	height: 85%;
+	width: 85%;
+}
+#nextBTN,
+#prevBTN {
+	height: 30%;
+}
+#galleryModal {
+	margin-top: 5em;
+}
+#donate-heading {
+	font-size: 1.2rem;
+	padding-top: 50px;
+}
+#calendar-container {
+	padding-top: 70px;
+	height: 70vh;
+	width: 70vw;
+}
+#calendar {
+	width: 100%;
+	height: 100%;
+}
+@media (min-width: 767px) and (max-width: 1099px) {
+	#what h2 {
+		padding-top: 40px;
+	}
+	#who > *:first-child {
+		padding-top: 30px;
+		margin-top: 1em;
+	}
+	#contact-heading {
+		padding-top: 50px;
+	}
+}

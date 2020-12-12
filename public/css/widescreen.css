@@ -1,0 +1,45 @@
+.navbar {
+	height: 100px;
+}
+#hog-logo {
+	height: 80px;
+	width: 80px;
+}
+#showcase {
+	height: 80vh;
+	padding-top: 100px;
+}
+#event p {
+	font-size: 1.2rem;
+	margin: 1em;
+}
+#what-showcase p {
+	font-size: 1.1rem;
+}
+#what-showcase h3 {
+	font-size: 2rem;
+}
+.whatCard-heading {
+	font-size: 1.4rem;
+}
+#what h2 {
+	padding-top: 100px;
+}
+#who > *:first-child {
+	padding-top: 60px;
+}
+#contact-heading {
+	padding-top: 70px;
+}
+#donate-heading {
+	font-size: 1.4rem;
+	padding-top: 90px;
+}
+@media (min-height: 875px) and (min-width: 1100px) {
+	#event-header {
+		margin-top: 2em;
+	}
+	#event {
+		height: 30vh;
+	}
+}

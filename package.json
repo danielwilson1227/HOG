@@ -1,0 +1,30 @@
+{
+  "name": "hog_website",
+  "version": "1.0.0",
+  "description": "Heart of Grace Website",
+  "main": "JS/message.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielwilson1227/HOG.git"
+  },
+  "author": "Daniel Wilson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielwilson1227/HOG/issues"
+  },
+  "homepage": "https://github.com/danielwilson1227/HOG#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "nodemailer": "^6.4.14",
+    "nodemailer-mailgun-transport": "^2.0.1",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "path": "^0.12.7",
+    "xoauth2": "^1.2.0"
+  }
+}

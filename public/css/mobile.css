@@ -1,0 +1,89 @@
+#hog-heading {
+	font-size: 1.2rem;
+}
+#what-heading {
+	height: 8vh;
+}
+#what-showcase p {
+	font-size: 1rem;
+}
+#what-showcase h3 {
+	font-size: 1.5rem;
+}
+#what-container {
+	flex-direction: column;
+}
+#what h2 {
+	padding-top: 40px;
+	margin-top: 0;
+}
+.card-img-top {
+	height: 30vh;
+}
+#event {
+	flex-direction: column;
+	height: 60vh;
+	font-size: 0.8rem;
+}
+#event p {
+	margin: 0;
+}
+#event-header {
+	margin-bottom: 0;
+}
+#main-footer {
+	font-size: 0.8rem;
+}
+.what-gallery {
+	flex-direction: column;
+}
+.what-gallery img {
+	margin: 1.5em auto;
+}
+#who > *:first-child {
+	padding-top: 60px;
+	margin-top: 0.5em;
+}
+#contact-heading {
+	padding-top: 50px;
+}
+.whatCard-heading {
+	font-size: 1.2rem;
+}
+#who-leaders,
+#who-team {
+	grid-template-columns: repeat(1, 1fr);
+}
+.who-card p {
+	font-size: 1rem;
+}
+.who-card {
+	width: 40%;
+}
+#gallery {
+	margin: 0.5em auto;
+}
+#donate-heading {
+	padding-top: 70px;
+}
+#calendar-container {
+	height: 85vh;
+	width: 85vw;
+}
+@media (max-width: 500px) {
+	#gallery img {
+		width: 90px;
+		height: 90px;
+	}
+}
+@media (max-width: 374px) {
+	.whatCard-heading {
+		font-size: 0.9rem;
+	}
+	.who-card p {
+		font-size: 0.8rem;
+	}
+	#event-header {
+		font-size: 1.1rem;
+	}
+}
