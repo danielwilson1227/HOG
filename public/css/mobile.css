@@ -1,9 +1,7 @@
 #hog-heading {
 	font-size: 1.2rem;
 }
-#what-heading {
-	height: 8vh;
-}
+
 #what-showcase p {
 	font-size: 1rem;
 }
@@ -16,6 +14,9 @@
 #what h2 {
 	padding-top: 40px;
 	margin-top: 0;
+}
+#what-container .card {
+	width: 90%;
 }
 .card-img-top {
 	height: 30vh;
@@ -30,6 +31,9 @@
 }
 #event-header {
 	margin-bottom: 0;
+}
+#event h2 {
+	margin-top: 0.3em;
 }
 #main-footer {
 	font-size: 0.8rem;

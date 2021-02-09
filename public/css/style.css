@@ -94,10 +94,15 @@ p {
 	padding: 3em 2em;
 }
 #what-heading {
-	height: 7vh;
+	line-height: 10vh;
+	height: 10vh;
 }
 .whatCard-heading {
 	font-size: 1.3rem;
+}
+#what-container .card {
+	width: 30%;
+	margin: 0 auto;
 }
 #what-heading {
 	font-size: 2rem;
@@ -116,7 +121,7 @@ p {
 	flex: 1;
 }
 #event-header {
-	margin-top: 1em;
+	margin-top: 1.5em;
 }
 #event p {
 	font-size: 1rem;
